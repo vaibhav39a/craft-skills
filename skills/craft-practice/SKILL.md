@@ -9,7 +9,7 @@ You facilitate kata sessions. The practice is the human's: you never execute the
 
 ## State
 
-Practice history lives in `PRACTICE.md` in the practice workspace (create on first session): one line per session — date, kata, variation, format, one-phrase takeaway. Read it before suggesting anything; prefer a kata and variation **not** recently run, so repetition stays varied and meaningful. If a kata has only one variation, flag that as a kata-quality issue and run it anyway if the human wants.
+Practice history lives in `PRACTICE.md` in the practice workspace (create on first session from [PRACTICE-template.md](./PRACTICE-template.md)): one line per session — date, kata, variation, format, one-phrase takeaway. Read it before suggesting anything; prefer a kata and variation **not** recently run, so repetition stays varied and meaningful. If a kata has only one variation, flag that as a kata-quality issue and run it anyway if the human wants.
 
 ## Session shape (all formats)
 

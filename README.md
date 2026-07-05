@@ -18,19 +18,11 @@ Coaching runs on consent, never on defaults you didn't sign: your personal contr
 
 The curriculum ships inside it across five canon groups — Ousterhout's deep modules and complexity symptoms, Evans's ubiquitous language and bounded contexts, Fowler's code smells and YAGNI, Beck's green-bar patterns, the session-observable apprenticeship patterns — each concept ~20 lines with a named anti-pattern, an honest provenance line, and an **In the agentic era** section (date-stamped: claims about model behavior age) that rereads the canon for work where an agent types most of the lines.
 
-```
-cp -r skills/craft-coach ~/.claude/skills/
-```
-
 ### craft-learn — mission-driven study of the canon
 
 *You keep meaning to actually learn this stuff →* `craft-learn`.
 
 User-invoked (`/craft-learn`). Your standing study workspace lives at `~/.craft/`: a `MISSION.md` (why you're investing in craft) plus your learning records pick what to study next — zone of proximal development, not a curator's ladder; sessions open with retrieval practice, not rereading. Sources are fetched and cited at read time; the skill's standing rule is *never trust your parametric knowledge*. It ships the career-timescale study concepts (sweep-the-floor, concrete-skills, be-the-worst, your-first-language) and a curated reading list as seed material.
-
-```
-cp -r skills/craft-learn ~/.claude/skills/
-```
 
 ### craft-practice — deliberate practice, including for the reviewing era
 
@@ -38,13 +30,19 @@ cp -r skills/craft-learn ~/.claude/skills/
 
 User-invoked (`/craft-practice`). Facilitates katas in four formats — test-driven, pattern-recognition, reflective, and **review**: critiquing a realistic, subtly-flawed diff, because judging output is the skill the agentic era actually demands. Nine katas ship, from Osherove's string calculator (with green-bar-move variations) through characterization and test-pain diagnosis to two hand-authored review katas — with **answer keys and sample banks kept in separate files** nobody opens until the critique is written, and a "Running this with a team" flow for calibration exercises. The AI facilitates and never solves; comparing against an authored key is calibration, judging you is off the table. Your practice log lives at `~/.craft/PRACTICE.md`.
 
-```
-cp -r skills/craft-practice ~/.claude/skills/
-```
-
 ## Installing and updating
 
-Install skills side by side under one skills directory (they resolve each other as siblings): `cp -r skills/craft-<name> ~/.claude/skills/`. To **update**: delete the installed copy first, then re-copy — `cp -r` alone won't remove files a new version dropped. Check what you're running against the `version:` line in each installed SKILL.md. If you used this project's predecessor repo, uninstall its skills (`dev-skills-practice`, `dev-skills-scaffold`, `craft-tdd`) — they answer to the same trigger words with outdated behavior. Your personal files live in `~/.craft/` and survive every reinstall.
+Install with the [skills CLI](https://skills.sh) — it discovers all three skills from this repo and installs them for your agent (Claude Code, Cursor, Codex, and others):
+
+```
+npx skills add vaibhav39a/craft-skills
+```
+
+Pick the skills you want from the picker — install them side by side, since they resolve each other as siblings. To **update**, re-run the same command. Check what you're running against the `version:` line in each installed SKILL.md.
+
+Manual alternative: copy each skill directory into your agent's skills directory, e.g. `cp -r skills/craft-<name> ~/.claude/skills/` — when updating this way, delete the installed copy first, since `cp -r` alone won't remove files a new version dropped.
+
+If you used this project's predecessor repo, uninstall its skills (`dev-skills-practice`, `dev-skills-scaffold`, `craft-tdd`) — they answer to the same trigger words with outdated behavior. Your personal files live in `~/.craft/` and survive every reinstall.
 
 ## Repo layout
 

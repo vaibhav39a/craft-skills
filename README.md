@@ -10,7 +10,7 @@ Most AI coding tools optimize for the AI doing more. These skills invert that: t
 
 *The agent quietly did your thinking for you, and you shipped it →* `craft-coach`.
 
-Model-invoked. When a concept from the software-craft canon applies to what you and the agent are doing — a scaffold sprouting shallow classes, code drafted with no failing test, a "refactor" that changes behavior, a first design going straight to implementation — it names the concept, cites the source, names the anti-pattern forming, and leaves the move to you. Twenty-two concepts ship inside it, from Ousterhout's deep modules and complexity symptoms to Beck's green-bar patterns to Hoover & Oshineye's apprenticeship patterns, each with an **In the agentic era** section that rereads the canon for work where an agent types most of the lines.
+Model-invoked. When a concept from the software-craft canon applies to what you and the agent are doing — a scaffold sprouting shallow classes, code drafted with no failing test, a "refactor" that changes behavior, a first design going straight to implementation — it names the concept, cites the source, names the anti-pattern forming, and leaves the move to you. Twenty-six concepts ship inside it — Ousterhout's deep modules and complexity symptoms, Evans's ubiquitous language and bounded contexts, Beck's green-bar patterns, Hoover & Oshineye's apprenticeship patterns — each with an **In the agentic era** section that rereads the canon for work where an agent types most of the lines.
 
 ```
 cp -r skills/craft-coach ~/.claude/skills/

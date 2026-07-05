@@ -23,7 +23,7 @@ Read the matching file in `concepts/` before surfacing so you name the rule and 
 
 ## Concept index
 
-Concepts are grouped by canon: `concepts/design/` (Ousterhout), `concepts/tdd/` (Beck, Fowler, Feathers, Freeman & Pryce), `concepts/apprenticeship/` (Hoover & Oshineye). Load `concepts/<group>/<slug>.md` on demand.
+Concepts are grouped by canon: `concepts/design/` (Ousterhout), `concepts/ddd/` (Evans), `concepts/tdd/` (Beck, Fowler, Feathers, Freeman & Pryce), `concepts/apprenticeship/` (Hoover & Oshineye). Load `concepts/<group>/<slug>.md` on demand.
 
 ### design/
 
@@ -35,6 +35,15 @@ Concepts are grouped by canon: `concepts/design/` (Ousterhout), `concepts/tdd/` 
 | define-errors-out-of-existence | error handling is spreading defensively instead of the API changing |
 | pull-complexity-downwards | a module is punting decisions to callers via config knobs or thrown exceptions |
 | design-it-twice | code is about to be written from the first design that ever existed |
+
+### ddd/
+
+| Concept | Reach for it when… |
+|---|---|
+| ubiquitous-language | code, tests, and conversation use different words for the same domain thing |
+| bounded-context | one model is being stretched across parts of the system that mean different things by the same words |
+| context-mapping | an integration is adopting another context's model with nobody having decided that |
+| aggregates | a transaction is growing to touch many entities, or anything can reference anything |
 
 ### tdd/
 

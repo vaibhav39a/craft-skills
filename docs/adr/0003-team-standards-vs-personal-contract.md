@@ -1,0 +1,7 @@
+# Team standards and personal contracts are different artifacts
+
+The senior use case asked one file to be two things: use-cases.md told seniors their COACHING.md was "a statement of standards others will read," but COACHING.md's semantics are a *personal signature* (ADR-0002) — committing one to a shared repo enforces one person's contract on teammates who never signed, recreating exactly the nag failure ADR-0002 was written to close; last-writer-wins on the file makes it worse (one person's "off" silences another's chosen discipline).
+
+Decision: two artifacts with disjoint semantics. **`~/.craft/COACHING.md`** is the personal contract — one per human, applies across all their repos, never committed; a repo-root COACHING.md may add repo-specific personal adoptions. **`TEAM-STANDARDS.md`** is repo-committed and about the code: craft-coach surfaces its entries with explicit team framing for everyone, regardless of personal contracts. Neither overrides the other — a personal off cannot silence a team standard; a team file cannot force personal-discipline coaching (TDD mechanics) on someone who didn't adopt it.
+
+Considered: a single file with scoped sections (personal + team). Rejected — the failure modes come precisely from cohabitation: shared git history for a personal signature, and one schema pulled between honest-and-minimal (consent) and aspirational-and-audience-facing (standards).

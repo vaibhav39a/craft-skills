@@ -4,7 +4,7 @@ How concepts and skills are written in this repo. This is the only meta-doc.
 
 ## Concept files
 
-One concept per file in `skills/craft-coach/concepts/<group>/<slug>.md`, ~20 lines, five sections. Groups are canon clusters (`design/`, `tdd/`, `apprenticeship/`); add a new group directory when a new canon area starts, and add its section to craft-coach's index.
+One concept per file, ~20 lines, five sections. **Every concept has exactly one home, owned by its consumer**: session-surfaceable concepts live in `skills/craft-coach/concepts/<group>/<slug>.md`; study concepts (career-timescale, no session trigger) live in `skills/craft-learn/concepts/`. Groups are canon clusters (currently `design/`, `ddd/`, `refactoring/`, `tdd/`, `apprenticeship/`); a new canon area gets a new group directory and its own index section. **Sync rule**: a new or renamed concept file requires a matching index row in its owner's SKILL.md, and the sweep (files ↔ rows, 1:1) runs before the commit.
 
 ```markdown
 # <Concept Name>
@@ -31,7 +31,7 @@ Every concept names a real source. **Katas are not exempt**: a kata adapted from
 - **author-verified** — the author of this repo has checked the content against the primary source. A file graduates to this class only through a real study session: read against the sources, kata run where one exists, learning record written. The record is the evidence; the marker is the receipt.
 - **web-sourced** — grounded in a high-trust page fetched at write time, cited by URL. Fetched, not remembered.
 - **UNVERIFIED DRAFT** — nobody has checked it yet. The marker stays, visibly, until someone does.
-- **observed (YYYY-MM)** — empirical claims about *model behavior*, date-stamped on the section heading. Every "In the agentic era" section carries this class: its claims are experience-based, will age as models change, and are honest only with a date attached. Revisit stale stamps rather than letting 2026 claims speak for 2028 models.
+- **observed (YYYY-MM)** — empirical claims about *model behavior*, date-stamped on the section heading. Every "In the agentic era" section carries this class: its claims are experience-based, will age as models change, and are honest only with a date attached. The revisit trigger: when a file graduates to author-verified through the study loop, its observed stamp gets re-checked in the same session — the two sweeps are one activity.
 
 Never write quotes, page numbers, or chapter numbers from parametric recall. An honest "unverified" beats a plausible fabrication — laundered canon is the failure mode this repo exists to fight.
 

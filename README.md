@@ -12,7 +12,7 @@ New here? [docs/use-cases.md](docs/use-cases.md) maps concrete scenarios — jun
 
 *The agent quietly did your thinking for you, and you shipped it →* `craft-coach`.
 
-Model-invoked. When a concept from the software-craft canon applies to what you and the agent are doing — a scaffold sprouting shallow classes, code drafted with no failing test, a "refactor" that changes behavior, a first design going straight to implementation — it names the concept, cites the source, names the anti-pattern forming, and leaves the move to you. Thirty concepts ship inside it — Ousterhout's deep modules and complexity symptoms, Evans's ubiquitous language and bounded contexts, Fowler's code smells and YAGNI, Beck's green-bar patterns, Hoover & Oshineye's apprenticeship patterns — each with an **In the agentic era** section that rereads the canon for work where an agent types most of the lines.
+Runs two ways: invoke it deliberately as a **checkpoint** (before accepting a nontrivial diff, before merging), or let it fire opportunistically when a concept from the software-craft canon matches what you and the agent are doing — a scaffold sprouting shallow classes, a "refactor" that changes behavior, a first design going straight to implementation. Either way it names the concept, cites the source, names the anti-pattern forming, and leaves the move to you — governed by your personal contract (`~/.craft/COACHING.md`) and the repo's `TEAM-STANDARDS.md`, never by defaults you didn't sign ([ADR-0002](docs/adr/0002-coaching-consent-artifact.md), [ADR-0003](docs/adr/0003-team-standards-vs-personal-contract.md)). The curriculum ships inside it across five canon groups — Ousterhout's deep modules and complexity symptoms, Evans's ubiquitous language and bounded contexts, Fowler's code smells and YAGNI, Beck's green-bar patterns, the session-observable apprenticeship patterns — each concept with an **In the agentic era** section that rereads the canon for work where an agent types most of the lines.
 
 ```
 cp -r skills/craft-coach ~/.claude/skills/
@@ -37,6 +37,10 @@ User-invoked. Facilitates katas in four formats — test-driven, pattern-recogni
 ```
 cp -r skills/craft-practice ~/.claude/skills/
 ```
+
+## Installing and updating
+
+Install skills side by side under one skills directory (they resolve each other as siblings): `cp -r skills/craft-<name> ~/.claude/skills/`. To **update**: delete the installed copy first, then re-copy — `cp -r` alone won't remove files a new version dropped. Check what you're running against the `version:` line in each installed SKILL.md. If you used this project's predecessor repo, uninstall its skills (`dev-skills-practice`, `dev-skills-scaffold`, `craft-tdd`) — they answer to the same trigger words with outdated behavior. Your personal files live in `~/.craft/` and survive every reinstall; see [docs/use-cases.md](docs/use-cases.md) for the layout.
 
 ## Repo layout
 

@@ -50,12 +50,21 @@ The provenance class for date-stamped empirical claims about model behavior (the
 
 ### The coaching contract
 
+**Craft home**:
+The `~/.craft/` directory — one per person, holding every personal artifact (coaching contract, mission, practice log, learning records). Never committed to a repo.
+
 **Coaching contract**:
-The `COACHING.md` file in a user's workspace listing which disciplines they have adopted, are trying on, or have turned off. The signed half of asymmetric binding — surfacing runs on it.
+The `~/.craft/COACHING.md` file listing which disciplines a person has adopted, is trying on, or has turned off. The signed half of asymmetric binding — surfacing runs on it. Personal; applies across all their repos.
 _Avoid_: config, settings
 
+**Team standard**:
+An entry in a repo-committed `TEAM-STANDARDS.md`: a discipline the team holds for that codebase, surfaced for everyone with team framing. About the code, not anyone's practice — never a substitute for a coaching contract.
+
+**Checkpoint**:
+The deliberate mode of craft-coach: invoked by the human at a decision moment (before accepting a diff, before merging). The reliable mode; opportunistic surfacing is the bonus.
+
 **Study concept**:
-A career-timescale concept with no session-observable trigger; reached through craft-learn sessions, never surfaced from coding events.
+A career-timescale concept with no session-observable trigger; lives in craft-learn and is reached through study sessions, never surfaced from coding events.
 
 ### The repo's lifecycle
 

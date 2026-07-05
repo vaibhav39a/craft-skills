@@ -1,3 +1,13 @@
+# dev-skills
+
+Installable agent skills that preserve and build the *human's* software-craft skill while working with AI. The skills are the product; the craft curriculum is their internal reference material. Vocabulary lives in `CONTEXT.md`; how things get written here lives in `authoring.md`.
+
+## Repo conventions
+
+- **Buckets**: ideas start in `in-progress/` (one markdown file each), get promoted to `skills/`, or land in `out-of-scope/` with a one-paragraph reason. Promotion requires a README entry — no README pitch, no promotion.
+- **Concepts**: `skills/craft-coach/concepts/` is the single source of truth for concept files. Format and provenance rules are in `authoring.md`; follow them for every new or edited concept.
+- **No tdd skill here by design** — see `docs/adr/0001-no-tdd-skill-of-our-own.md` before adding one.
+
 ## Agent skills
 
 ### Issue tracker

@@ -1,0 +1,7 @@
+# Coaching requires a signed contract (COACHING.md)
+
+craft-coach's premise is asymmetric binding — the rules bind the human's practice — but the original design had no mechanism by which the human ever adopted any rule, so every discipline fired on everyone: a YAGNI nag during a deliberate spike, red-green-refactor pushed on someone who never chose TDD. The independent review of 2026-07-05 named this the design flaw most likely to drive uninstalls.
+
+Decision: surfacing runs on consent. A `COACHING.md` in the user's workspace lists disciplines as adopted / trying-on / off; discipline-bound concepts (the TDD cycle mechanics especially) fire only if adopted; universally observable events (behavior change inside a "refactor", speculative capability, leaking boundaries) may surface without a file, with a one-time offer to create it. Suppression rules travel with this: declared throwaway work is off-limits, once per concept per session, defer to a driving TDD skill.
+
+Considered: session-inference of the human's standards (no artifact). Rejected — inferring adopted disciplines from behavior is exactly the mental-state guessing the trigger redesign removed. Consequence: four career-timescale apprenticeship concepts (sweep-the-floor, concrete-skills, be-the-worst, your-first-language) lost their trigger rows entirely — they are study material for craft-learn, not session events — accepting that a quarter of the original index was never honestly routable.

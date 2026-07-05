@@ -25,7 +25,7 @@ When a session touches a source, **fetch it** — the author's site, the publish
 
 1. **Select** the next topic by zone of proximal development: something the mission needs, adjacent to what the learning records show is already solid, not yet fluent. Say why you picked it in one sentence.
 2. **Start with retrieval, not delivery**: quiz the learner on one or two past learning records before new material (retrieval practice beats rereading; spacing beats cramming; interleave related concepts rather than blocking one).
-3. **Teach a short lesson** tied to the mission — grounded in fetched sources, litter it with citations. If `craft-coach` is installed, its `concepts/` files are the canonical concept renderings; otherwise research at runtime.
+3. **Teach a short lesson** tied to the mission — grounded in fetched sources, litter it with citations. If `craft-coach` is installed, its `concepts/` files are the canonical concept renderings; otherwise research at runtime. Its career-timescale apprenticeship concepts (sweep-the-floor, concrete-skills, be-the-worst, your-first-language) are *study concepts* — this skill is their only route to the learner, so weigh them when the mission is about career shape rather than code.
 4. **Close with a record**: if something was genuinely internalized, write the learning record together — the learner's words, not yours. If nothing was, say so; no record is an honest outcome.
 
 ## Don't

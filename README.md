@@ -4,6 +4,8 @@
 
 Most AI coding tools optimize for the AI doing more. These skills invert that: the rules bind *your* practice, and the AI is bound to **surface** the rule at the moment it applies — by name, with its source — and let you act. The failure mode they exist to fight is **AI laundering**: letting the AI's fluency substitute for your own understanding.
 
+New here? [docs/use-cases.md](docs/use-cases.md) maps concrete scenarios — junior, mid-level, senior — to the skill and concept that serves each.
+
 ## The skills
 
 ### craft-coach — the pair-programming contract

@@ -1,6 +1,6 @@
 # Fake It ('Til You Make It)
 
-Source: Kent Beck, *Test-Driven Development: By Example* (2002), green-bar pattern — provenance: web-sourced (https://www2.cs.uh.edu/~rsingh/documents/software_design/TDD.pdf; https://newsletter.kentbeck.com/p/canon-tdd; http://c2.com/wiki/remodel/pages/FakeItUntilYouMakeIt)
+Source: Kent Beck, *Test-Driven Development: By Example* (2002), green-bar pattern — provenance: web-sourced (https://newsletter.kentbeck.com/p/canon-tdd; http://c2.com/wiki/remodel/pages/FakeItUntilYouMakeIt); the book-text specifics (the constant→expression procedure, the duplicated-test-data rationale) are UNVERIFIED DRAFT until checked against the book
 
 ## When it applies
 

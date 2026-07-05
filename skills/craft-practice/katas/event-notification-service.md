@@ -1,68 +1,39 @@
-# Kata: Walking Skeleton — Event Notification Service
+# Event Notification Service — walking-skeleton kata
 
-## Format
+format: reflective
+concept: walking-skeleton
+time-box: 30–45 min
 
-Design exercise. No code to write. Output is a written description of your walking skeleton.
+## Setup
 
-## System Description
+A design-journaling exercise: you write a walking-skeleton plan and stress it against the concept's rules. Default scenario (variation 1) — a new **Event Notification Service**: accepts events via HTTP (`POST /events`), stores them in PostgreSQL, emails registered subscribers on matching events, exposes `GET /health`. Python, cloud VM, CI/CD pipeline, third-party SMTP. No code exists yet.
 
-You are starting a new **Event Notification Service**. Its eventual job:
+## Goal
 
-- Accept events via an HTTP API (e.g., `POST /events`)
-- Store events in a database
-- Send email notifications to registered subscribers when a matching event arrives
-- Expose a status endpoint (`GET /health`)
+A written skeleton description covering four things: what's *in* the skeleton (every component, and what it does in the skeleton, not the final system); what's explicitly *out* and why (at least two); how it's deployed and verified reachable; and the thinnest end-to-end path — one request touching every layer with zero business logic.
 
-The team uses Python, deploys to a cloud VM via a CI/CD pipeline, and stores data in PostgreSQL. Email is sent via a third-party SMTP service.
+## Rules of engagement
 
-The system does not exist yet. No code has been written.
+- Write your full answer before opening the facilitator notes.
+- Self-assess against the concept's rules: end-to-end through real infrastructure? CI green against the deployed target? No business logic anywhere? Rebuildable in a day?
+- The facilitator prompts and probes ("does that DB touch actually verify the path?") but never drafts your skeleton.
 
-## Your Task
+## Variations
 
-Identify the **walking skeleton** for this system.
+1. **Supplied scenario** — the Event Notification Service above.
+2. **Your next real project** — the reflective ideal: whatever you're actually about to start; the skeleton plan becomes real work.
+3. **Legacy variant** — a system that runs locally but has never been deployed; plan the skeleton it never earned.
+4. **Agent-scaffold audit** — have an agent scaffold the scenario, then assess its output against your skeleton plan: what did it build locally that proves nothing end-to-end?
 
-Write a description covering:
+## Reflection prompt
 
-1. **What is in the skeleton?** Name every component that must exist (HTTP server, database connection, email client, CI pipeline, etc.) and what each does in the skeleton — not in the final system.
-2. **What is NOT in the skeleton?** Name at least two things you are explicitly leaving out and why.
-3. **How is it deployed?** Describe the deployment target and how you would verify it is reachable.
-4. **What is the thinnest end-to-end path?** Describe a single request that touches every layer from HTTP entry point to backing store, without containing business logic.
+One paragraph: which part of the path were you most tempted to fake locally, and what integration risk would that have deferred?
 
-## Self-Assessment Criteria
-
-Evaluate your walking skeleton against these questions:
-
-| Criterion | Question |
-|-----------|----------|
-| **End-to-end** | Does a request travel from HTTP entry point through every architectural layer (app → DB, app → email client) to a real backing service? |
-| **Deployed** | Is the skeleton reachable through real infrastructure — not just runnable on your laptop? |
-| **No business logic** | Does the skeleton contain any event matching, subscriber lookup, or notification routing? If yes, remove it. |
-| **Earns the pipeline** | Does a CI pipeline run tests against the deployed target and go green before feature work begins? |
-| **Thin enough** | Could you rebuild this skeleton in a day if the architecture turned out to be wrong? |
-
-## Reference Answer
+## Facilitator comparison notes
 
 <details>
-<summary>Expand after completing your own answer</summary>
+<summary>Open only after writing your own synthesis</summary>
 
-**In the skeleton:**
-- A Python HTTP server (Flask or FastAPI) with one route: `POST /events` returns `202 Accepted` with a hardcoded body — no event storage, no subscriber lookup
-- A `GET /health` endpoint returning `{"status": "ok"}`
-- A database connection that runs one query (`SELECT 1`) at startup to verify connectivity — no schema, no tables
-- An SMTP client stub that logs "would send email" to stdout — no real email sent
-- A Dockerfile that packages the app
-- A CI workflow that builds the image, pushes it to a registry, deploys to the VM, and runs `GET /health` against the live URL
-
-**Not in the skeleton:**
-- Event schema or storage (no `events` table) — that's a feature
-- Subscriber registry — that's a feature
-- Notification routing or matching logic — that's a feature
-- Any form of authentication — deferred until the first feature that needs it
-
-**Deployed:** The app runs on the cloud VM behind a domain name. CI deploys on every push to `main`. The final CI step hits `https://<domain>/health` and fails the pipeline if it doesn't return `200`.
-
-**Thinnest end-to-end path:** `POST /events` → app layer receives request → DB connection verified at startup (not per-request) → `202 Accepted` returned. The DB touch is at startup rather than per-request because the skeleton's goal is to verify connectivity, not to implement persistence.
-
-**Is it thin enough?** Yes — if PostgreSQL turns out to be the wrong choice, you can swap it before any schema is defined.
+A strong answer typically includes: one route returning a hardcoded `202`, a health endpoint, a startup connectivity check (`SELECT 1`) with no schema, an SMTP stub logging "would send," a Dockerfile, and CI that builds, deploys, and fails the pipeline unless `GET /health` returns 200 against the live URL. Explicitly out: event schema/storage, subscriber registry, matching/routing logic, auth — all features. The common miss: putting the DB touch per-request instead of at startup (the skeleton verifies connectivity, not persistence) — either is defensible if the *reasoning* names what's being proven.
 
 </details>

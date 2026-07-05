@@ -3,6 +3,7 @@
 ```yaml
 format: test-driven
 time-box: ~30 min
+source: Roy Osherove's String Calculator kata (https://osherove.com/tdd-kata-1), adapted
 ```
 
 ## Setup

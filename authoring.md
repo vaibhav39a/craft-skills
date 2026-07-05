@@ -26,7 +26,7 @@ Source: <Author>, *<Work>* — provenance: author-verified | web-sourced (<URL>)
 
 ### The citation rule
 
-Every concept names a real source. Three provenance classes, declared on the Source line:
+Every concept names a real source. **Katas are not exempt**: a kata adapted from a known exercise names its originator on a `source:` line (e.g. Osherove's String Calculator). Three provenance classes, declared on the Source line:
 
 - **author-verified** — the author of this repo has checked the content against the primary source.
 - **web-sourced** — grounded in a high-trust page fetched at write time, cited by URL. Fetched, not remembered.

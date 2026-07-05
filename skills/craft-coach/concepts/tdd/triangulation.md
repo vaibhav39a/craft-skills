@@ -1,6 +1,6 @@
 # Triangulation
 
-Source: Kent Beck, *Test-Driven Development: By Example* (2002), "Triangulate" green-bar pattern — provenance: web-sourced (https://www2.cs.uh.edu/~rsingh/documents/software_design/TDD.pdf, Beck's primary text, university-hosted)
+Source: Kent Beck, *Test-Driven Development: By Example* (2002), "Triangulate" green-bar pattern — provenance: UNVERIFIED DRAFT — the book-text specifics (the two-example rule, Beck's own caveats) await verification against a legitimate copy of the book; no Beck-controlled web treatment was found (his Canon TDD post doesn't cover triangulation)
 
 ## When it applies
 

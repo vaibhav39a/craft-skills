@@ -1,6 +1,6 @@
 # Walking Skeleton
 
-Source: Steve Freeman and Nat Pryce, *Growing Object-Oriented Software, Guided by Tests* (2009) — provenance: author-verified
+Source: term coined by Alistair Cockburn (*Crystal Clear*, 2004); developed in Steve Freeman and Nat Pryce, *Growing Object-Oriented Software, Guided by Tests* (2009) — provenance: author-verified (GOOS reading)
 
 ## When it applies
 

@@ -23,7 +23,7 @@ Read the matching file in `concepts/` before surfacing so you name the rule and 
 
 ## Concept index
 
-Concepts are grouped by canon: `concepts/design/` (Ousterhout), `concepts/ddd/` (Evans), `concepts/tdd/` (Beck, Fowler, Feathers, Freeman & Pryce), `concepts/apprenticeship/` (Hoover & Oshineye). Load `concepts/<group>/<slug>.md` on demand.
+Concepts are grouped by canon: `concepts/design/` (Ousterhout), `concepts/ddd/` (Evans), `concepts/refactoring/` (Fowler & Beck), `concepts/tdd/` (Beck, Feathers, Freeman & Pryce), `concepts/apprenticeship/` (Hoover & Oshineye). Load `concepts/<group>/<slug>.md` on demand.
 
 ### design/
 
@@ -45,6 +45,16 @@ Concepts are grouped by canon: `concepts/design/` (Ousterhout), `concepts/ddd/` 
 | context-mapping | an integration is adopting another context's model with nobody having decided that |
 | aggregates | a transaction is growing to touch many entities, or anything can reference anything |
 
+### refactoring/
+
+| Concept | Reach for it when… |
+|---|---|
+| code-smells | code looks off but review is about to wave it through as syntactically clean |
+| two-hats | a behavior change and a refactor are happening in the same move |
+| preparatory-refactoring | a feature is being forced through structure that resists it |
+| opportunistic-refactoring | a small mess is being stepped over again, or a cleanup is snowballing mid-feature |
+| yagni | code is being written for a need nobody has shipped — speculative generality, unused flexibility |
+
 ### tdd/
 
 | Concept | Reach for it when… |
@@ -52,7 +62,6 @@ Concepts are grouped by canon: `concepts/design/` (Ousterhout), `concepts/ddd/` 
 | red-green-refactor | production code is about to be written with no failing test in front of it |
 | triangulation | one green test is about to justify a general implementation |
 | fake-it | a first implementation wants to be clever instead of constant |
-| two-hats | a behavior change and a refactor are happening in the same move |
 | self-testing-code | a change lands somewhere no test would catch its breakage |
 | listen-to-the-tests | a test is hard to write and the fix being reached for is a fancier test |
 | characterization-tests | untested legacy behavior is about to be changed |

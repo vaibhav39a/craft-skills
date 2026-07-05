@@ -1,4 +1,4 @@
-# dev-skills
+# craft-skills
 
 A small set of installable agent skills that preserve and build the *human's* software-craft skill while working with AI, with the craft curriculum as the skills' internal reference material.
 

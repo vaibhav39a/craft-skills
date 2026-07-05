@@ -1,4 +1,4 @@
-# dev-skills
+# craft-skills
 
 Installable agent skills that preserve and build the *human's* software-craft skill while working with AI. The skills are the product; the craft curriculum is their internal reference material. Vocabulary lives in `CONTEXT.md`; how things get written here lives in `docs/authoring.md`.
 

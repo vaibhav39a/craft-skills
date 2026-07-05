@@ -1,4 +1,4 @@
-# dev-skills
+# craft-skills
 
 **As AI writes more of the code, the human's craft skill becomes the scarce resource — and the AI itself should be enlisted to build that skill rather than erode it.**
 

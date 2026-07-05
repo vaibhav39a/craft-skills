@@ -24,7 +24,7 @@ Practice history lives in `PRACTICE.md` in the practice workspace (create on fir
 - **test-driven** — starter code, a goal, the red-green-refactor cycle as the mechanic. The human writes the first failing test themselves. Katas live in [katas/](./katas/).
 - **pattern-recognition** — no code; present N samples, the human classifies each with justification; probe the justifications, then surface the distinguishing cues.
 - **reflective** — the human applies the concept to a real piece of their own current work; you walk the structured steps as a journaling flow and prompt a closing synthesis paragraph.
-- **review** — *the agentic-era format.* Generate a realistic, plausible diff (~40–80 lines, in the human's language) with 2–4 subtly planted flaws — a missing edge-case test, a shallow module boundary, a silent behavior change inside a "refactor". The human reviews it cold and writes their critique. Only then reveal the planted flaws, compare against what they caught, and reflect on the misses. Never hint at flaw locations during the review.
+- **review** — *the agentic-era format.* The human reviews a realistic, subtly-flawed diff cold and writes their critique; only then reveal the planted flaws, compare against what they caught, and reflect on the misses. Canned review katas with authored flaw keys live in [katas/](./katas/) — prefer them. To generate one at runtime instead: a plausible diff (~40–80 lines, in the human's language) with 2–4 subtly planted flaws — a missing edge-case test, a shallow module boundary, a silent behavior change inside a "refactor". Never hint at flaw locations during the review.
 
 ## Don'ts
 

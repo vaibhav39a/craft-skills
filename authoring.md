@@ -46,6 +46,6 @@ Write skills as direct behavioral instruction, not requirements prose. Lean on *
 
 ## The bucket ladder
 
-`in-progress/<idea>.md` → promoted to `skills/<name>/` → or `out-of-scope/<idea>.md` with a one-paragraph reason.
+Ideas travel `.scratch/in-progress/<idea>.md` → promoted to `skills/<name>/` → or `.scratch/out-of-scope/<idea>.md` with a one-paragraph reason. The buckets are workspace-local (gitignored, like all working documents — evaluations and improvement plans live in `.scratch/docs/`); only what's promoted is published.
 
-Promotion is a PR-sized decision with one gate: **a README entry exists** (the pitch: problem moment, canon grounding, install line). Deprecation is a move back out of `skills/` with a dated note. No proposals, no design docs, no archive ceremony — if an idea needs a long-form argument, that argument *is* its `in-progress/` file.
+Promotion is a PR-sized decision with one gate: **a README entry exists** (the pitch: problem moment, canon grounding, install line). Deprecation is a move back out of `skills/` with a dated note. No proposals, no design docs, no archive ceremony — if an idea needs a long-form argument, that argument *is* its in-progress file.

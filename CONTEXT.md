@@ -69,7 +69,7 @@ A career-timescale concept with no session-observable trigger; lives in craft-le
 ### The repo's lifecycle
 
 **Bucket ladder**:
-The governance path an idea travels: `in-progress/` → promoted to `skills/` (README entry required) → `out-of-scope/` or deprecated. Replaces spec-driven ceremony.
+The governance path an idea travels: a workspace-local in-progress note → promoted to `skills/` (README entry required) → or a workspace-local out-of-scope note. Replaces spec-driven ceremony; only promoted work is published.
 _Avoid_: pipeline, OpenSpec change
 
 ### Practice and learning

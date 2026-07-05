@@ -87,4 +87,4 @@ Steering agents all day atrophies exactly the fluency your judgment rests on. A 
 
 ## One honest caveat
 
-These skills surface and facilitate; they don't measure. Whether the coaching actually fires at the right moments in *your* sessions is something you'll observe, not something we can promise — this repo's own [evaluation](evaluation-2.md) says so plainly. If a surfacing was apt or noise, note it; the contract file is yours to tighten.
+These skills surface and facilitate; they don't measure. Whether the coaching actually fires at the right moments in *your* sessions is something you'll observe, not something we can promise. If a surfacing was apt or noise, note it; the contract file is yours to tighten.

@@ -19,6 +19,6 @@ Practice is not work: real work has stakes and never lets you try the same probl
 - **Skipping the reflection** — five katas without reflection are five exercises
 - **Practice as production** — kata code is throwaway by design; polishing it for portfolio defeats the stakes-free purpose
 
-## In the agentic era
+## In the agentic era (observed 2026-07)
 
 The practice is the human's — the agent facilitates (prompts, hints, reflects) and never runs the kata in its own head as a substitute; "let me show you how it would go" is the anti-pattern wearing a helpful face. Don't grade or score the human's kata work; reflection prompts ask what the human noticed, not what the AI judges. Suggest a fresh variation each time so repetition stays meaningful.

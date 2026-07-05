@@ -18,6 +18,6 @@ Identify 3–5 directly demonstrable skills relevant to the work you want, and f
 - **Aspiration as capability** — "I want to learn X" filed under "I can do X"
 - **AI-borrowed proof** — pointing at code an AI wrote as evidence of your skill
 
-## In the agentic era
+## In the agentic era (observed 2026-07)
 
 The pattern's fifth rule became its center: your concrete skills are what you can do *without* the agent, and the honest ledger of that distinction is the skill inventory that matters now. When ability is claimed that couldn't be demonstrated cold, or agent output is about to be presented as personal proof, name **AI-borrowed proof** — the code may run; the skill wasn't built.

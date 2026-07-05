@@ -19,6 +19,6 @@ Capture insights as they happen — capture is cheap, formalization comes later.
 - **Perfectionist gist** — refusing to capture until it's crisp
 - **Capture as commitment** — treating an entry as a vow instead of an observation
 
-## In the agentic era
+## In the agentic era (observed 2026-07)
 
 The agent sees the pattern forming before the human names it — when the human applies something that matches no recorded concept, surface the capture offer ("this looks like a real pattern — want to record it?") but never auto-capture; the offer is the job, the judgment is theirs. When the human resolves an entry, execute their resolution faithfully — no second-guessing, no promoting anyway.

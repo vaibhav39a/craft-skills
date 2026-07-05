@@ -19,6 +19,6 @@ Regular beats heroic: a 10-minute weekly reflection beats a 2-hour quarterly one
 - **Heroic reflection** — saving it for the quarterly retreat, after the texture of the moments is gone
 - **Reflecting alone forever** — isolation drifts toward self-validation; share insights periodically
 
-## In the agentic era
+## In the agentic era (observed 2026-07)
 
 Sessions with an agent end fast and roll straight into the next prompt — the reflection moment is structurally easy to skip, so surface it when a meaningful task closes. Timing over volume: one well-placed pointer per session at most, connected to what actually happened, never a dormancy nag on every prompt. A concept the human hasn't touched in months is a soft pointer, not a blocker.

@@ -17,6 +17,6 @@ Beck's formulation: **make the change easy, then make the easy change** — firs
 - **Brute-forcing the woods** — wedging the feature into hostile structure because refactoring first "takes too long"
 - **Preparation that never ends** — the detour becoming a rewrite; preparatory refactoring is scoped by the change it serves
 
-## In the agentic era
+## In the agentic era (observed 2026-07)
 
 Agents brute-force the woods by default: give one a feature request and it will thread the awkward structure heroically, shims and special cases included, because nothing in generation feels the resistance a human would. The question to ask before implementation — *would this be easy if the structure were different?* — costs one prompt now, and the refactoring leg is exactly the safe, test-guarded work agents execute well. When a draft is visibly fighting the existing structure, name the missing preparation step and offer the two-move sequence instead of the wedge.

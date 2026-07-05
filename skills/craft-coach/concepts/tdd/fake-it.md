@@ -18,6 +18,6 @@ First implementation for a broken test: return a constant. Then gradually transf
 - **Fake as a license to stub** — faking over code with no test in place inverts the pattern; the test comes first, always
 - **Resenting the constant** — "this feels stupid" is the friction that builds the restraint muscle for when the real answer *isn't* obvious
 
-## In the agentic era
+## In the agentic era (observed 2026-07)
 
 The agent always knows the "real" implementation, so the resistance this pattern trains against is now structural: when the first test is failing, the disciplined offer is the fake first, generality when a second test demands it (*triangulation*). If the human asks for the real thing straight away, name the step being skipped and let them choose — the point isn't the constant, it's keeping the step size a conscious decision instead of the agent's reflex.

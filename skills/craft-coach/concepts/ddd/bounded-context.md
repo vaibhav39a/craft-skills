@@ -17,6 +17,6 @@ Multiple models are inevitable on any large project — don't fight that; make e
 - **Unknowing model blend** — combining code from distinct models; "software becomes buggy, unreliable, and difficult to understand"
 - **Big Ball of Mud** — models mixed, boundaries inconsistent everywhere; Evans's move is to draw a boundary around the mess, name it, refuse sophisticated modeling *inside* it, and guard against its sprawl
 
-## In the agentic era
+## In the agentic era (observed 2026-07)
 
 One-model-rules-all is the agent default: asked to add a feature, it will reuse whatever entity it finds and extend a schema across meanings, because it doesn't *feel* the boundary — the friction humans sense at team and meaning seams is invisible to a context window that spans the whole repo. Boundaries an agent will respect must be declared, not sensed (a context map or per-context glossary the session actually loads). When an agent's edit crosses a boundary or stretches a model to its second meaning, name it.

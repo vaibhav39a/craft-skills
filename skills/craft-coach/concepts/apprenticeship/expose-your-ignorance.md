@@ -19,6 +19,6 @@ When you don't understand something, say so — to teammates, reviewers, and you
 - **AI laundering** — letting the AI's confident output substitute for your own understanding
 - **Ignorance theater** — asking questions you know the answers to; it dilutes the signal of real ones
 
-## In the agentic era
+## In the agentic era (observed 2026-07)
 
 This is the constitutional concept of the set: the agent radiates fluency, so the human's silence is the yellow flag. Several consecutive accepted suggestions with no clarifying question is **Hidden ignorance** in its modern form — ask the human to walk back through the last change. When you introduce a term and it gets echoed without engagement, ask whether it's actually in their stack or your assumption. Surface specific gaps with specific prompts; never lecture the pattern itself.

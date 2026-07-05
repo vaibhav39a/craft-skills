@@ -19,6 +19,6 @@ Red first: no production code without a failing test in front of you — the fai
 - **Refactoring on red** — structure changes while behavior is unverified
 - **Coverage theater** — tests written for the coverage tool that never required anything in particular
 
-## In the agentic era
+## In the agentic era (observed 2026-07)
 
 The agent drafting production code with no failing test in scope is Test-after-development at machine speed — the draft becomes the design and tests become commentary. Surface the rule and offer to start with the test, even when the human says "just write it, I'll add tests after." Once a failing test exists, the implementation move stays minimal; a "real" implementation on one green test gets **Big-step green** named at it. When a test is hard to write, name the discomfort as design feedback about the SUT — don't compensate with fancier fixtures.

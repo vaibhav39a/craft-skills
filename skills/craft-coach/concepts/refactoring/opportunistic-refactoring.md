@@ -18,6 +18,6 @@ Codebase health comes from a continuous stream of small improvements made "whene
 - **The rabbit hole** — Fowler's own warning: "as you fix one thing you spot another"; opportunistic means quick and bounded, not spelunking
 - **Camping on red** — improving structure while tests fail, which is *two-hats* mixed
 
-## In the agentic era
+## In the agentic era (observed 2026-07)
 
 This one cuts both ways. Agents make the camp site rule nearly free — the small rename, the extracted function, done in seconds on green tests. But the agent version of "while I'm here" is also the classic mixed-hat diff: unsolicited improvements bundled into feature changes, silently. And the rabbit hole is bottomless for a tireless fixer — an agent will follow "you fix one thing, you spot another" forever. The frame: opportunistic refactoring is welcome as *separate, small, green-to-green* changes the human sees and approves; inside a feature diff, name the hat-mixing and offer to split it out.

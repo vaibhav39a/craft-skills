@@ -18,6 +18,6 @@ Prefer the room where you're the least skilled person — provided the team will
 - **Faking it to fit in** — pretending to the team's level instead of learning from the gap
 - **Stranded apprentice** — worst on a team with no one willing to mentor; that's not growth, just isolation
 
-## In the agentic era
+## In the agentic era (observed 2026-07)
 
 An agent pair can make anyone feel like the best in the room — output flows, validation is constant, and the calibrating discomfort of better peers disappears. That's **Big-fish-small-pond comfort** with a synthetic pond. The agent is not the skilled colleague this pattern prescribes: it doesn't model workflow, habits, or taste under stakes. When the human's environment has stopped stretching them, surface that no amount of agent fluency substitutes for working beside people who are genuinely better.

@@ -18,6 +18,6 @@ Test pain is design feedback about the system under test, not a tooling problem.
 - **Mocking through the pain** — tools that mock the unmockable turn a design instrument back into "just a testing technique"
 - **Blaming the framework** — the frustration is real; its address is the SUT
 
-## In the agentic era
+## In the agentic era (observed 2026-07)
 
 Agents are tireless test-elaborators: hard-to-test code doesn't frustrate them, so they'll build the mock network a human would have refused to type — and the design signal dies in the fixture. When a test fights back, ask what the pain says about the SUT before making the test smarter. The human's ear for "this test is telling us something" is the craftsperson skill; keep it in the loop rather than coping on their behalf.

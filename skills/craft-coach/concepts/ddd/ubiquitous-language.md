@@ -18,6 +18,6 @@ Structure a language around the domain model and commit the team to using it rel
 - **Fractured language** — day-to-day terminology disconnected from the terms embedded in the code
 - **Transient insight** — the incisive domain expression emerges in speech and never reaches the model
 
-## In the agentic era
+## In the agentic era (observed 2026-07)
 
 Agents are fluent in every dialect at once, so they translate silently and drift stops hurting the writer — the person who used to feel the friction of two vocabularies is now a model that feels none, and the cost compounds invisibly for the team. Agents also coin plausible names freely (craft-practice's *language-divergence* kata exercises spotting this, if you have that skill installed). The glossary is the contract: when a session's naming diverges from the established language, or an agent invents a term nobody says, surface it — and remember renaming is refactoring, which agents have made cheap enough to actually do.

@@ -18,6 +18,6 @@ Identify every model in play — including the implicit models of legacy subsyst
 - **Aspirational map** — drawing the architecture you want instead of the relationships that exist
 - **Accidental conformist** — adopting an upstream's model by drift rather than by decision
 
-## In the agentic era
+## In the agentic era (observed 2026-07)
 
 Agents make accidental relationships at generation speed: an integration drafted against an upstream API quietly conforms to its model, or copies enough of it to create an unagreed shared kernel — pattern choices made by no one. The flip side: anticorruption layers, historically expensive to justify, are now cheap to build — so the human's job is the strategic call the agent can't make (*which* relationship should this be?), and the agent's job is the translation code. When generated integration code lets another context's model leak into yours, name the drift and ask which named relationship was actually intended.

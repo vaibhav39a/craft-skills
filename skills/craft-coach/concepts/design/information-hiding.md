@@ -17,6 +17,6 @@ Each module encapsulates knowledge — a design decision — and its interface s
 - **Information leakage** — implementation details exposed; other classes now depend on them, and one decision change fans out
 - **Temporal decomposition** — structuring modules around execution order (read-then-parse-then-write), which smears one piece of knowledge across all the steps
 
-## In the agentic era
+## In the agentic era (observed 2026-07)
 
 Temporal decomposition is an agent's natural grain — prompts arrive as step sequences, and the generated modules mirror the steps, leaking the shared knowledge across all of them. And when knowledge has already leaked, an agent won't feel the friction a human would: it happily edits all five copies at once, hiding the leak's cost until the human maintains it alone. Ask of any generated boundary: what decision does this module hide? If the answer is "none, it's step two," name the leak.

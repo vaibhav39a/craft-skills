@@ -18,6 +18,6 @@ Before features, earn a deployed, end-to-end path: touching every architectural 
 - **Skeleton-as-MVP** — "just enough logic to show stakeholders" collapses proving-the-path into delivering-value
 - **Declaring victory at "it runs"** — done means CI green against the deployed target
 
-## In the agentic era
+## In the agentic era (observed 2026-07)
 
 Agents scaffold impressive local-only apps in minutes — which makes **Local-only skeleton** the default failure, not the exception. When asked to "build the skeleton," surface that it isn't one until it's deployed and reachable, and offer the deployment configuration before any feature. When feature work is requested against an undeployed skeleton, name **Feature creep before the skeleton is done** and let the human accept the debt consciously or build the path first.

@@ -18,6 +18,6 @@ Only abstract when you have two or more examples. One assertion can be satisfied
 - **Over-triangulation** — two tests before every generalization, even when the pattern is obvious; Obvious Implementation is the escape hatch
 - **A second test the fake also passes** — argument values too similar to force anything
 
-## In the agentic era
+## In the agentic era (observed 2026-07)
 
 Agents produce the general solution from the first test, every time — generality is their reflex, and one green test makes it look earned. Triangulation is the discipline that says *not yet*: when an implementation is about to satisfy cases no test demands, surface it and offer the triangulating second test instead. The human's judgment call — is this territory uncertain enough to triangulate? — is exactly the judgment the reflex would erase.

@@ -17,6 +17,6 @@ Exceptions are a major source of complexity, so reduce the number of places that
 - **Defensive programming** — throwing for anything suspicious-looking; every throw taxes every caller
 - **Punting** — surfacing the problem instead of solving it, which is complexity pushed to whoever calls you
 
-## In the agentic era
+## In the agentic era (observed 2026-07)
 
 Defensive programming is the agent default: generated code arrives wrapped in try/except and studded with validation throws, because locally that always *looks* responsible. Each one is a caller obligation nobody designed. When agent output multiplies error paths, surface the stronger move — can the API's semantics make the case impossible, or one aggregation point absorb it? The design question ("who handles this, and should anyone have to?") is exactly what generation skips.

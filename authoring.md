@@ -20,17 +20,18 @@ Source: <Author>, *<Work>* — provenance: author-verified | web-sourced (<URL>)
 ## Anti-patterns
 <named anti-patterns, bolded — names are what craft-coach surfaces>
 
-## In the agentic era
+## In the agentic era (observed YYYY-MM)
 <required: how the concept changes when an agent writes most of the code — reinterpretation, not restatement>
 ```
 
 ### The citation rule
 
-Every concept names a real source. **Katas are not exempt**: a kata adapted from a known exercise names its originator on a `source:` line (e.g. Osherove's String Calculator). Three provenance classes, declared on the Source line:
+Every concept names a real source. **Katas are not exempt**: a kata adapted from a known exercise names its originator on a `source:` line (e.g. Osherove's String Calculator). Four provenance classes:
 
-- **author-verified** — the author of this repo has checked the content against the primary source.
+- **author-verified** — the author of this repo has checked the content against the primary source. A file graduates to this class only through a real study session: read against the sources, kata run where one exists, learning record written. The record is the evidence; the marker is the receipt.
 - **web-sourced** — grounded in a high-trust page fetched at write time, cited by URL. Fetched, not remembered.
 - **UNVERIFIED DRAFT** — nobody has checked it yet. The marker stays, visibly, until someone does.
+- **observed (YYYY-MM)** — empirical claims about *model behavior*, date-stamped on the section heading. Every "In the agentic era" section carries this class: its claims are experience-based, will age as models change, and are honest only with a date attached. Revisit stale stamps rather than letting 2026 claims speak for 2028 models.
 
 Never write quotes, page numbers, or chapter numbers from parametric recall. An honest "unverified" beats a plausible fabrication — laundered canon is the failure mode this repo exists to fight.
 

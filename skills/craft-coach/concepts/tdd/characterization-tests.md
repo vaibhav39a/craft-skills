@@ -17,6 +17,6 @@ Lock in what the code *actually does*, not what it's supposed to do. The procedu
 - **Asserting intent** — writing the test for what the code *should* do; that's a different activity, and on legacy code it's a guess
 - **Changing first, testing after** — the net goes up before the acrobatics, not after
 
-## In the agentic era
+## In the agentic era (observed 2026-07)
 
 Agents are happy to "improve" untested code — asked to make one change, they'll tidy the neighborhood, and without pinned behavior nobody can tell improvement from breakage. Before an agent touches unfamiliar legacy code, surface this as the safest first move: characterize, then change. An agent is also fast at the mechanical part (harness, probe, pin) — but the human must review what got pinned, because the pinned behavior is now the contract.

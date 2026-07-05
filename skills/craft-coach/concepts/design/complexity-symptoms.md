@@ -17,6 +17,6 @@ Complexity is anything about a system's structure that makes it hard to work on 
 - Treating a symptom (slow changes) without naming which one it is — each symptom points at different dependencies or obscurities
 - Tolerating "just this one" small obscurity — the whole mechanism of complexity is accumulation
 
-## In the agentic era
+## In the agentic era (observed 2026-07)
 
 Agents mask cognitive load instead of removing it: they hold the system in *their* context, the change lands, and the human's understanding never had to exist — comprehension debt wearing the costume of productivity. Meanwhile agents produce complexity's increments at machine speed, so zero tolerance now applies to reviewing diffs: each small new dependency or obscurity in generated code is a unit of future suffering. When a "simple" request keeps touching many files, name change amplification — that's the design talking, not the task.

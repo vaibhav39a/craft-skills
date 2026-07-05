@@ -18,6 +18,6 @@ Cluster entities and value objects into aggregates — units of change with expl
 - **Pointless interference** — cautious lock-everything schemes making multiple users collide until the system is unusable
 - **Reference free-for-all** — every object reachable from everywhere, so no boundary means anything
 
-## In the agentic era
+## In the agentic era (observed 2026-07)
 
 Generated CRUD is a reference free-for-all by default: an agent wiring ORM entities will relate anything to anything, and consistency boundaries appear nowhere in the diff because no test or type demands them. When an agent's transaction spans what are really two aggregates, or a generated model hands out references to internals, name the missing boundary. And keep the human in the feedback loop Evans describes: aggregate friction is *model* feedback — an agent will happily add retry logic and distributed locks where the honest fix is a different boundary.

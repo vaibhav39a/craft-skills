@@ -17,6 +17,6 @@ Don't implement your first idea. Make two designs — genuinely different, not a
 - **First-idea commitment** — the initial design ships because nothing ever competed with it
 - **Strawman second design** — an alternative constructed to lose, which buys the ritual without the insurance
 
-## In the agentic era
+## In the agentic era (observed 2026-07)
 
 Generation made this pattern nearly free: two radically different designs cost minutes of agent time, so there is no longer any economic excuse for first-idea commitment. The failure mode has moved instead — accepting the agent's first *plausible* draft, which arrives fluent and confident and therefore feels compared-against-alternatives when it never was. Before implementation starts on a nontrivial boundary, ask for the second, structurally different design and make the comparison explicit. The judgment exercised in choosing between them is the design skill the human keeps.

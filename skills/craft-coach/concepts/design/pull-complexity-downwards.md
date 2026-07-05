@@ -17,6 +17,6 @@ The module author embraces the suffering: take on the hard problem, solve it com
 - **Punting upward** — exceptions and config knobs as a substitute for making a decision; locally easier, globally more expensive
 - **Simple-implementation bias** — optimizing for the module author's afternoon over every caller's future
 
-## In the agentic era
+## In the agentic era (observed 2026-07)
 
 Agents punt upward reflexively — a config parameter or a thrown exception is always the locally simplest thing to generate, and the cost lands on future callers the agent will never meet. The economics have flipped in your favor though: when the *agent* is the martyr, pulling complexity down is cheap — but only if the human demands it. When a generated interface asks its caller to decide something the module should own, name the punt and ask for the version that suffers so callers don't.

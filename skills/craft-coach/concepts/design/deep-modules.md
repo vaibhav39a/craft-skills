@@ -17,6 +17,6 @@ Maximize functionality relative to interface complexity: a deep module offers lo
 - **Shallow module** — little functionality relative to its interface; in the extreme, invoking the method costs almost as much as retyping it inline
 - **Classitis** — too many classes, each adding the least possible functionality; every class taxes the system with its interface even when each is individually simple
 
-## In the agentic era
+## In the agentic era (observed 2026-07)
 
 Agents are classitis machines: asked to scaffold a feature, they cheerfully generate constellations of small pass-through classes, and each one *looks* clean in isolation. Interface design is the judgment surface the human must hold — when a scaffold sprouts tiny classes or a module's interface rivals its implementation, name it and ask what single deeper interface would absorb them. Reviewing for depth (what does the caller have to know?) is a sharper agent-output filter than reviewing for style.

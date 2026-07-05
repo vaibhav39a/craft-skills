@@ -18,6 +18,6 @@ At any moment you wear one hat. The hats are distinguished by *rules about test 
 - **Behavior change disguised as refactoring** — the most dangerous mix, because review reads it as safe
 - **Opportunistic cleanup mid-fix** — the human version: "while I'm here…" inside a bug fix
 
-## In the agentic era
+## In the agentic era (observed 2026-07)
 
 Agents mix hats by default: asked to add a feature, they also "improve" the surrounding code — a silent behavior change wearing a cleanup's clothes, at a diff size that discourages careful review. When drafting, keep the hats in separate changes: complete the behavior change before touching structure, or refactor first with no behavior change at all. When a mixed-hat draft appears, name it and offer the split.

@@ -18,6 +18,6 @@ Self-testing code is a *property*, not a technique: you can run the suite and be
 - **Coverage as the property** — coverage is a proxy; behavior-change detection is the actual thing
 - **Refactoring without the net** — without tests that fail on behavior change, "refactoring" is gambling
 
-## In the agentic era
+## In the agentic era (observed 2026-07)
 
 An agent's refactoring draft in untested code is gambling at machine speed — the diff looks plausible, and plausible is exactly what an unverified behavior change looks like. Before accepting agent changes, ask whether a test would catch this breaking; if not, surface that the precondition is missing and that *characterization tests* are how to establish it on legacy code.

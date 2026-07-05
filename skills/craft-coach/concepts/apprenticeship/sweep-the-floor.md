@@ -19,6 +19,6 @@ On a new team, find the work nobody wants — flaky tests, doc gaps, dependency 
 - **Sweeping forever** — "humble" as a hiding place from stretch
 - **Performative sweeping** — scut work for visible credit rather than to learn
 
-## In the agentic era
+## In the agentic era (observed 2026-07)
 
 Agents make the visible work cheap to produce, which makes **Architect-on-arrival** more tempting than ever — a newcomer can generate a redesign proposal in an hour without knowing where the bodies are buried. When someone early on a team reaches for the visible work, surface whether a concrete unglamorous task would earn trust faster while teaching the codebase; when they signal onboarding ambiguity ("what should I work on?"), offer floor-sweeping candidates from context. Pragmatic, never moralistic.

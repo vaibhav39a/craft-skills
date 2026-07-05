@@ -45,6 +45,18 @@ Content grounded in a high-trust source fetched at write time, cited by URL. Acc
 Content carrying an explicit marker that no one has checked it against its source yet. Visible by rule — never silent.
 _Avoid_: laundered content (that's the failure, not a class)
 
+**Observed**:
+The provenance class for date-stamped empirical claims about model behavior (the agentic-era sections). Honest only with the date attached; ages as models change.
+
+### The coaching contract
+
+**Coaching contract**:
+The `COACHING.md` file in a user's workspace listing which disciplines they have adopted, are trying on, or have turned off. The signed half of asymmetric binding — surfacing runs on it.
+_Avoid_: config, settings
+
+**Study concept**:
+A career-timescale concept with no session-observable trigger; reached through craft-learn sessions, never surfaced from coding events.
+
 ### The repo's lifecycle
 
 **Bucket ladder**:

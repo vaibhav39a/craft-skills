@@ -19,6 +19,6 @@ Pick one language and stay long enough to build, ship, and read others' code in 
 - **"I know X" inflation** — claiming a language after one course
 - **AI-laundered fluency** — the AI writes it, the human claims it; the code runs, the skill was never built
 
-## In the agentic era
+## In the agentic era (observed 2026-07)
 
 The agent is fluent in thirty languages, and none of that fluency is the human's. Defaulting to your first language when pairing keeps your own depth in the loop — you can actually judge the diff. When the human is accepting code in a language they can't read critically, name **AI-laundered fluency**: shipping it isn't knowing it, and the gap will surface at debugging time, when the agent's context is gone and theirs never existed.

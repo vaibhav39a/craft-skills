@@ -108,6 +108,22 @@ Pick one variation per session. Rotate on subsequent runs. Each is a self-contai
 
 **Watch for:** test-shape decisions. How does the test assert on the error message? If the assertion is brittle (exact string match), refactor it (on green!) toward something stable (substring or list-of-negatives) before adding the next case.
 
+### Variation 6 — Fake it, on purpose
+
+**Test list:** re-run V1 + V2's cases in a fresh file — but under one extra rule: **every first green must be a hardcoded constant**, even when the real implementation is obvious. After each green, narrate the transform out loud: which duplication between test data and code are you eliminating as the constant becomes an expression?
+
+**Goal:** feel the deliberate friction of returning `0` when you know the answer. This variation makes *fake-it* the focus rather than a passing move — the restraint muscle it builds is for the day the real answer *isn't* obvious.
+
+**Watch for:** resenting the constant ("this feels stupid") — that's the rep working. Also: never delete an assertion or copy a computed actual into an expected to get green; that's faking the *test*, not the implementation.
+
+### Variation 7 — Triangulation drill
+
+**Test list:** V2 → V3's generalization, under one extra rule: **you may only generalize when a second test exists that the current fake fails** — and its argument values must be chosen so no shortcut survives (not `"2,2"` after `"1,3"`; both sum to 4).
+
+**Goal:** experience the triangulation moment — the second test *pulling* generality out of the code — at least three times. Then, deliberately, find one step where triangulating would be ceremony (the pattern is obvious) and take *Obvious Implementation* instead, saying so out loud. Beck's own usage is the target: triangulate when genuinely unsure, not always.
+
+**Watch for:** the second test that the fake accidentally passes — values too similar to force anything. If the bar stays green when you expected red, your test made no demand.
+
 ## Reflection prompt
 
 After the time-box rings, write 2–4 sentences answering:

@@ -4,7 +4,7 @@ How concepts and skills are written in this repo. This is the only meta-doc.
 
 ## Concept files
 
-One concept per file in `skills/craft-coach/concepts/<slug>.md`, ~20 lines, five sections:
+One concept per file in `skills/craft-coach/concepts/<group>/<slug>.md`, ~20 lines, five sections. Groups are canon clusters (`design/`, `tdd/`, `apprenticeship/`); add a new group directory when a new canon area starts, and add its section to craft-coach's index.
 
 ```markdown
 # <Concept Name>

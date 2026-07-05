@@ -23,7 +23,20 @@ Read the matching file in `concepts/` before surfacing so you name the rule and 
 
 ## Concept index
 
-Load `concepts/<slug>.md` on demand.
+Concepts are grouped by canon: `concepts/design/` (Ousterhout), `concepts/tdd/` (Beck, Fowler, Feathers, Freeman & Pryce), `concepts/apprenticeship/` (Hoover & Oshineye). Load `concepts/<group>/<slug>.md` on demand.
+
+### design/
+
+| Concept | Reach for it when… |
+|---|---|
+| deep-modules | an interface is growing as big as its implementation, or a scaffold sprouts many tiny classes |
+| information-hiding | an implementation detail is becoming another module's dependency, or modules mirror execution steps |
+| complexity-symptoms | a simple change fans out across files, or nobody can say where the needed knowledge lives |
+| define-errors-out-of-existence | error handling is spreading defensively instead of the API changing |
+| pull-complexity-downwards | a module is punting decisions to callers via config knobs or thrown exceptions |
+| design-it-twice | code is about to be written from the first design that ever existed |
+
+### tdd/
 
 | Concept | Reach for it when… |
 |---|---|
@@ -35,12 +48,11 @@ Load `concepts/<slug>.md` on demand.
 | listen-to-the-tests | a test is hard to write and the fix being reached for is a fancier test |
 | characterization-tests | untested legacy behavior is about to be changed |
 | walking-skeleton | a project is growing features before anything runs end-to-end |
-| deep-modules | an interface is growing as big as its implementation, or a scaffold sprouts many tiny classes |
-| information-hiding | an implementation detail is becoming another module's dependency, or modules mirror execution steps |
-| complexity-symptoms | a simple change fans out across files, or nobody can say where the needed knowledge lives |
-| define-errors-out-of-existence | error handling is spreading defensively instead of the API changing |
-| pull-complexity-downwards | a module is punting decisions to callers via config knobs or thrown exceptions |
-| design-it-twice | code is about to be written from the first design that ever existed |
+
+### apprenticeship/
+
+| Concept | Reach for it when… |
+|---|---|
 | expose-your-ignorance | the human is bluffing past something neither of you has verified |
 | practice-practice-practice | a skill gap keeps recurring in real work with no practice loop |
 | sweep-the-floor | grunt work is being skipped as beneath the session |

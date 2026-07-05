@@ -8,6 +8,8 @@ time-box: 20–40 min
 
 The facilitator presents 6–10 interface samples — function or class signatures with a one-paragraph note on what the implementation does and what callers must do around it. No implementation bodies: depth is judged from the interface's size relative to the functionality it hides.
 
+**Default diet: the authored sample bank** at [answers/module-depth.md](answers/module-depth.md) — the facilitator presents samples from it *without their verdicts* and reveals only at the end. The learner never opens that file. Runtime-generated samples are for variations 1–4 only, declared as such (generated samples have no authored ground truth).
+
 ## Goal
 
 For each sample, classify **deep** or **shallow**, with a justification that names the cues: how much functionality sits behind the interface, what information the interface hides or leaks, how much burden lands on the caller (setup, ordering constraints, error handling, configuration).

@@ -1,9 +1,10 @@
 # Notification Preferences — canned review kata
 
 format: review
-concept: code review judgment (two-hats, yagni, self-testing-code, define-errors-out-of-existence)
+concept: code review judgment (flaw concepts named in the answers file — reading them here would pre-solve the hunt)
 time-box: 20–30 min
 source: original to this repo; diff and planted flaws authored by hand
+answers: answers/review-notification-preferences.md — do not open before the written critique
 
 ## Setup
 
@@ -84,20 +85,14 @@ Write your review as you actually would — the comments you'd post, each anchor
 3. **Ten-minute gate** — time-box to 10 minutes; practice for real review conditions.
 4. **Fix-forward** — after the reveal, write the review comment that would get each flaw fixed *without* doing the fix yourself.
 
+## Running this with a team
+
+Everyone reviews the same diff independently and writes their critique **before anyone opens the answers file**. Collect all critiques; then open [answers/review-notification-preferences.md](answers/review-notification-preferences.md) together and compare each critique against the key — tallying key-matches is calibration and allowed; judging people isn't. Close by naming which flaw *family* the team systematically misses, and log per-person lines in PRACTICE.md (Who column).
+
 ## Reflection prompt
 
 Which flaw did the green CI most effectively hide from you? What would you add to your personal review checklist as a result?
 
-## Reveal — planted flaws
+## Reveal
 
-<details>
-<summary>Open only after your written critique</summary>
-
-1. **Silent behavior change inside the "refactor" (two-hats).** The notification threshold moved from `severity >= 2` to a default `min_severity` of **3** during the "cleanup." Severity-2 events silently stop notifying. The PR description calls this a refactor; it is a behavior change wearing a refactor's clothes — and no test covers the default threshold, so CI stays green.
-2. **A test that can't meaningfully fail (self-testing-code).** `test_min_severity_configurable` asserts the constructor stored the value — it passes even if `should_notify` ignores `min_severity` entirely. It's coverage theater: the behavior (configured threshold actually gating notifications) is never exercised.
-3. **Speculative capability (yagni).** `SUPPORTED_CHANNELS` accepts and stores `"sms"` and `"push"` — channels nothing in the system can send. A presumptive feature: users can now configure behavior that doesn't exist, and the stored values become a compatibility constraint before the feature is ever built.
-4. **Swallowed failure (define-errors-out-of-existence, inverted).** `_get_preferences` catches *all* exceptions and returns `{}` — a user object in a broken state now silently gets default notification behavior instead of surfacing the bug. This is defensive programming punting a real error into invisible misbehavior, the opposite of designing the error out.
-
-Bonus observations a strong review also makes: `user.preferences.update(body)` writes arbitrary request keys into preferences (no allowlist — `body` could set `min_severity` or anything else), and the roundtrip test asserts only the status code, not that the preference took effect.
-
-</details>
+The planted flaws are in [answers/review-notification-preferences.md](answers/review-notification-preferences.md). Open it only after your written critique.

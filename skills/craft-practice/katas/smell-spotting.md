@@ -8,9 +8,11 @@ time-box: 20–40 min
 
 The facilitator presents 6–10 short code samples (10–40 lines each). Some carry a classic smell — long parameter list, feature envy, data clump, divergent change, shotgun surgery, primitive obsession — some are honestly fine. The mix is not announced.
 
+**Default diet: the authored sample bank** at [answers/smell-spotting.md](answers/smell-spotting.md) — the facilitator presents samples from it *without their verdicts* and reveals only at the end. The learner never opens that file. Runtime-generated samples serve variations 1, 3–5, declared as such.
+
 ## Goal
 
-For each sample: say whether it smells, name the smell if you can, and — the actual skill — say what deeper design problem the smell *signals* and what question you'd ask before touching it. "No smell" is a valid and scored answer; false positives matter as much as misses.
+For each sample: say whether it smells, name the smell if you can, and — the actual skill — say what deeper design problem the smell *signals* and what question you'd ask before touching it. "No smell" is a valid answer and counts in the end-of-session calibration against the key; false positives matter as much as misses.
 
 ## Rules of engagement
 
